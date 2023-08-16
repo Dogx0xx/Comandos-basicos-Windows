@@ -18,8 +18,10 @@ netstat -p udp - conexões udp
 netstat -p tcp - conexões tcp
 netstat -an | findstr porta
 tasklist - todos os processos
-taskkill -pid 1010 - fechar processo 1010
-taskkill -pid 1010 /f - fechar processo 1010
+tasklist | find nome_do_serviço.exe -> identifica o serviço pelo nome
+taskkill /pid 1010 - fechar processo 1010
+taskkill /pid 1010 /f - fechar processo 1010
+taskkill /f /im nome_do_serviço.exe -> mata o serviço pelo nome
 net user User - detalhes do usuario
 net user USER senha /add - adicionar usuario
 net user USER /delete - excluir user
