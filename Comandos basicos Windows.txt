@@ -1,0 +1,34 @@
+Comandos:
+dir - Mostra diretorio
+mkdir - Criar pasta
+cls - limpa a tela
+echo %cd% - mostra o diretorio do momento
+type - ver arquivo
+copy - copiar arquivo
+move - mover arquivo
+del - deletar arquivo
+attrib +h - ocultar diretorio
+/? - manual dos comandos
+dir /a - ver conteudo oculto
+rmdir - remove diretorio vazio
+rmdir /s - remove diretorio com arquivos
+dir /S arquivo - procura arquivo
+netstat -n - conexões de forma numerica
+netstat -p udp - conexões udp
+netstat -p tcp - conexões tcp
+netstat -an | findstr porta
+tasklist - todos os processos
+taskkill -pid 1010 - fechar processo 1010
+taskkill -pid 1010 /f - fechar processo 1010
+net user User - detalhes do usuario
+net user USER senha /add - adicionar usuario
+net user USER /delete - excluir user
+ipconfig - configuração de IP
+ipconfig /all - mostra mais detalhado
+hostname & date /t & time /t - mostra o host data e hora
+logoff - mata a sessão do meu usuario
+inetmgr -> abre o iis se tiver no servidor
+services.msc -> abre os serviços
+cmd.exe -> abre o cmd
+hostname & date /t & time /t
+tracert + ip -> mostra a rota de comunicação entre uma maquina e outra
